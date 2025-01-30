@@ -36,19 +36,19 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <section id="reservation" role="region">
         <h2>Meet the owner</h2>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="name">Name: John Doe</li>
+          <li itemprop="jobTitle">Title: CEO</li>
+          <li itemprop="email">Email: johnjoe@jambox.ca</li>
+          <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
         <h2>Address</h2>
-        <address>
-          Jambox Studios
-          123 Guitar Road,
+        <div itemscope itemtype="https://schema.org/Organization">
+          <span itemprop="name">Jambox Studios</span>
+          <span itemprop="location"> 123 Guitar Road,
           Musicville, Danceistan
-          B3T 0L0
-        </address>
+          B3T 0L0</span>
+        </div>
       </section>
       <section id="studio" role="region">
         <h2>Contact Us</h2>
